@@ -20,8 +20,8 @@ defmodule EctoRedundancyIssue.MixProject do
 
   defp deps do
     [
-      {:ecto, "~> 2.0"},
-      {:postgrex, ">= 0.0.0"}
+      {:ecto, github: "elixir-ecto/ecto", branch: "master"},
+      {:postgrex, "~> 0.13.0-rc.0", override: true}
     ]
   end
 end
